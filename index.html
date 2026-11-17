@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexTI Informática — Soluções em Tecnologia</title>
+  <meta name="description" content="Manutenção de computadores, redes, suporte técnico, desenvolvimento de sites e segurança da informação.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%2306b6d4'/><text x='16' y='22' font-size='16' text-anchor='middle' fill='white' font-family='monospace' font-weight='bold'>&gt;_</text></svg>">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="header" id="topo">
+    <div class="container nav">
+      <a href="#topo" class="logo"><span class="logo-icon">&gt;_</span><span>Nex<strong>TI</strong></span></a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="menu">
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#planos">Planos</a>
+        <a href="#dicas">Dicas</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contato" class="btn btn-sm">Fale conosco</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="badge">Tecnologia que funciona</span>
+        <h1>Soluções completas em <span class="gradient">informática</span> para você e sua empresa</h1>
+        <p>Manutenção de computadores, infraestrutura de redes, suporte técnico, desenvolvimento web e segurança da informação — tudo em um só lugar.</p>
+        <div class="hero-actions">
+          <a href="#contato" class="btn">Solicitar orçamento</a>
+          <a href="#servicos" class="btn btn-outline">Ver serviços</a>
+        </div>
+        <ul class="hero-stats">
+          <li><strong data-count="1200" data-suffix="+">0</strong><span>Clientes atendidos</span></li>
+          <li><strong data-count="10">0</strong><span>Anos de experiência</span></li>
+          <li><strong data-count="98" data-suffix="%">0</strong><span>De satisfação</span></li>
+        </ul>
+      </div>
+      <div class="terminal" aria-hidden="true">
+        <div class="terminal-bar"><i></i><i></i><i></i><span>nexti@suporte:~</span></div>
+        <pre class="terminal-body"><code id="terminal-text"></code><span class="cursor">█</span></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section class="section" id="servicos">
+    <div class="container">
+      <div class="section-head">
+        <span class="badge">Serviços</span>
+        <h2>O que fazemos</h2>
+        <p>Atendimento especializado para residências, profissionais autônomos e empresas.</p>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
+          </div>
+          <h3>Manutenção de Computadores</h3>
+          <p>Formatação, limpeza, troca de peças, upgrade de memória e SSD, notebooks e desktops.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M12 7v5M12 12l-6 5M12 12l6 5"/></svg>
+          </div>
+          <h3>Redes e Infraestrutura</h3>
+          <p>Cabeamento estruturado, Wi‑Fi corporativo, servidores, roteadores e configuração de VPN.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
+          <h3>Segurança da Informação</h3>
+          <p>Antivírus, firewall, backup automatizado, recuperação de dados e adequação à LGPD.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></svg>
+          </div>
+          <h3>Desenvolvimento Web</h3>
+          <p>Sites institucionais, lojas virtuais, sistemas sob medida e otimização para buscadores.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24"><path d="M4 15a8 8 0 0116 0"/><rect x="2" y="14" width="4" height="6" rx="1"/><rect x="18" y="14" width="4" height="6" rx="1"/></svg>
+          </div>
+          <h3>Suporte Técnico Remoto</h3>
+          <p>Resolução rápida de problemas a distância, instalação de programas e configuração de e‑mail.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24"><path d="M7 18a5 5 0 01-.5-10A6 6 0 0118 9a4.5 4.5 0 01-.5 9H7z"/></svg>
+          </div>
+          <h3>Computação em Nuvem</h3>
+          <p>Migração para a nuvem, Microsoft 365, Google Workspace e armazenamento online seguro.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section class="section section-alt" id="sobre">
+    <div class="container about-grid">
+      <div class="about-visual reveal">
+        <div class="chip">
+          <div class="chip-core">CPU</div>
+        </div>
+      </div>
+      <div class="reveal">
+        <span class="badge">Sobre nós</span>
+        <h2>Tecnologia com atendimento humano</h2>
+        <p>A NexTI nasceu com a missão de descomplicar a tecnologia. Nossa equipe de técnicos certificados atua com transparência: você sabe exatamente o que será feito, quanto vai custar e quando ficará pronto.</p>
+        <ul class="checklist">
+          <li>Diagnóstico gratuito do equipamento</li>
+          <li>Garantia de 90 dias em todos os serviços</li>
+          <li>Atendimento presencial e remoto</li>
+          <li>Contratos de suporte mensal para empresas</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Planos -->
+  <section class="section" id="planos">
+    <div class="container">
+      <div class="section-head">
+        <span class="badge">Planos</span>
+        <h2>Suporte mensal para empresas</h2>
+        <p>Escolha o plano ideal para manter sua TI funcionando sem surpresas.</p>
+      </div>
+      <div class="pricing">
+        <div class="plan reveal">
+          <h3>Básico</h3>
+          <p class="price"><small>R$</small>199<span>/mês</span></p>
+          <ul>
+            <li>Até 5 computadores</li>
+            <li>Suporte remoto em horário comercial</li>
+            <li>Atualizações e antivírus</li>
+            <li>1 visita técnica por mês</li>
+          </ul>
+          <a href="#contato" class="btn btn-outline" data-plano="Básico">Contratar</a>
+        </div>
+        <div class="plan plan-featured reveal">
+          <span class="plan-tag">Mais escolhido</span>
+          <h3>Profissional</h3>
+          <p class="price"><small>R$</small>449<span>/mês</span></p>
+          <ul>
+            <li>Até 20 computadores</li>
+            <li>Suporte remoto prioritário</li>
+            <li>Backup diário em nuvem</li>
+            <li>Monitoramento de rede</li>
+            <li>4 visitas técnicas por mês</li>
+          </ul>
+          <a href="#contato" class="btn" data-plano="Profissional">Contratar</a>
+        </div>
+        <div class="plan reveal">
+          <h3>Empresarial</h3>
+          <p class="price"><small>R$</small>899<span>/mês</span></p>
+          <ul>
+            <li>Computadores ilimitados</li>
+            <li>Suporte 24/7</li>
+            <li>Gestão de servidores e firewall</li>
+            <li>Consultoria em LGPD</li>
+            <li>Visitas técnicas ilimitadas</li>
+          </ul>
+          <a href="#contato" class="btn btn-outline" data-plano="Empresarial">Contratar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dicas -->
+  <section class="section section-alt" id="dicas">
+    <div class="container">
+      <div class="section-head">
+        <span class="badge">Blog</span>
+        <h2>Dicas de informática</h2>
+        <p>Conteúdo rápido para você usar a tecnologia com mais segurança e desempenho.</p>
+      </div>
+      <div class="filters" role="tablist">
+        <button class="filter active" data-filter="todos">Todos</button>
+        <button class="filter" data-filter="seguranca">Segurança</button>
+        <button class="filter" data-filter="desempenho">Desempenho</button>
+        <button class="filter" data-filter="hardware">Hardware</button>
+      </div>
+      <div class="posts">
+        <article class="post" data-cat="seguranca">
+          <span class="tag">Segurança</span>
+          <h3>Como criar senhas fortes e fáceis de lembrar</h3>
+          <p>Use frases‑senha com 4 ou mais palavras e ative a autenticação em dois fatores sempre que possível.</p>
+        </article>
+        <article class="post" data-cat="desempenho">
+          <span class="tag">Desempenho</span>
+          <h3>5 sinais de que seu PC precisa de um SSD</h3>
+          <p>Inicialização lenta, programas travando e disco sempre em 100%? Um SSD pode deixar tudo até 5x mais rápido.</p>
+        </article>
+        <article class="post" data-cat="hardware">
+          <span class="tag">Hardware</span>
+          <h3>Quanta memória RAM você realmente precisa?</h3>
+          <p>8 GB para uso básico, 16 GB para trabalho e multitarefa, 32 GB ou mais para edição de vídeo e jogos.</p>
+        </article>
+        <article class="post" data-cat="seguranca">
+          <span class="tag">Segurança</span>
+          <h3>A regra 3‑2‑1 de backup</h3>
+          <p>3 cópias dos dados, em 2 mídias diferentes, sendo 1 fora do local. Simples e muito eficaz.</p>
+        </article>
+        <article class="post" data-cat="desempenho">
+          <span class="tag">Desempenho</span>
+          <h3>Programas na inicialização: o vilão escondido</h3>
+          <p>Desative apps desnecessários no Gerenciador de Tarefas e ganhe segundos preciosos ao ligar o PC.</p>
+        </article>
+        <article class="post" data-cat="hardware">
+          <span class="tag">Hardware</span>
+          <h3>Superaquecimento: limpeza e pasta térmica</h3>
+          <p>Poeira acumulada e pasta térmica ressecada reduzem o desempenho. Faça uma limpeza a cada 12 meses.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container narrow">
+      <div class="section-head">
+        <span class="badge">FAQ</span>
+        <h2>Perguntas frequentes</h2>
+      </div>
+      <details class="faq-item">
+        <summary>O diagnóstico é realmente gratuito?</summary>
+        <p>Sim. Avaliamos o equipamento e enviamos o orçamento sem custo. Você só paga se aprovar o serviço.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Quanto tempo leva uma formatação?</summary>
+        <p>Em média de 24 a 48 horas, incluindo backup dos seus arquivos e instalação dos programas essenciais.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Vocês atendem a domicílio?</summary>
+        <p>Sim, atendemos residências e empresas. Também oferecemos suporte remoto para problemas de software.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Meus dados ficam seguros durante o reparo?</summary>
+        <p>Seguimos uma política rígida de privacidade alinhada à LGPD. Seus arquivos não são acessados sem autorização.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section class="section section-alt" id="contato">
+    <div class="container contact-grid">
+      <div>
+        <span class="badge">Contato</span>
+        <h2>Vamos resolver seu problema?</h2>
+        <p>Preencha o formulário e retornaremos em até 2 horas úteis.</p>
+        <ul class="contact-info">
+          <li><span>📞</span> (11) 4000‑0000</li>
+          <li><span>💬</span> WhatsApp: (11) 90000‑0000</li>
+          <li><span>✉️</span> contato@nexti.com.br</li>
+          <li><span>🕘</span> Seg a Sex, 8h às 18h · Sáb, 8h às 12h</li>
+        </ul>
+      </div>
+      <form class="form" id="contact-form" novalidate>
+        <div class="field">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+        </div>
+        <div class="field">
+          <label for="email">E‑mail</label>
+          <input type="email" id="email" name="email" required placeholder="voce@exemplo.com">
+        </div>
+        <div class="field">
+          <label for="servico">Serviço</label>
+          <select id="servico" name="servico">
+            <option>Manutenção de Computadores</option>
+            <option>Redes e Infraestrutura</option>
+            <option>Segurança da Informação</option>
+            <option>Desenvolvimento Web</option>
+            <option>Suporte Técnico Remoto</option>
+            <option>Computação em Nuvem</option>
+            <option>Plano Básico</option>
+            <option>Plano Profissional</option>
+            <option>Plano Empresarial</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Descreva o que você precisa"></textarea>
+        </div>
+        <button type="submit" class="btn btn-block">Enviar mensagem</button>
+        <p class="form-status" id="form-status" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <a href="#topo" class="logo"><span class="logo-icon">&gt;_</span><span>Nex<strong>TI</strong></span></a>
+      <p>© <span id="ano"></span> NexTI Informática. Todos os direitos reservados.</p>
+      <a href="#topo" class="to-top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
